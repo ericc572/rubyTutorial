@@ -2,11 +2,11 @@
 <html>
   <head>
     <!-- Style and javascript links -->
-    The current price of bitcoin is: <%= @price%>
+   With your selected mood, you should buy $INSERTCOIN: <%= @price%>
   </head>
   <body>
     <h1>Welcome to the CRYPTOCURRENCY + Mood Generator!</h1>
-    <h4>Enter a mood below to see some relevant giphs:</h4>
+    <h4>Enter a mood below to see some relevant cryptos you should buy:</h4>
     <form action="/moods" method="POST">
       <input type="text" name="keyword">
       <input type="submit">
